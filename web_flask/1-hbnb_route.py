@@ -16,8 +16,6 @@ def index():
 @app.route('/', strict_slashes=False)
 def hbnb():
     """ Prints "HBNB" """
-
-
     return "HBNB"
 
 
