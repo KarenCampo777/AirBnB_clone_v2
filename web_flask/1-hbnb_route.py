@@ -9,16 +9,15 @@ app = Flask(__name__)
 @app.route('/', strict_slashes=False)
 def index():
 
-    """ Prints Hello HBNB!" """
+    """ Prints "Hello HBNB!" """
     return ("Hello HBNB!")
 
 
 @app.route('/', strict_slashes=False)
 def hbnb():
     """ Prints "HBNB" """
-    return "HBNB"
+    return ("HBNB")
 
 
 if __name__ == "__main__":
     app.run(debug=True, host='0.0.0.0', port=5000)
-    """Runs sever port: 5000"""
